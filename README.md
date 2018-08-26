@@ -157,7 +157,7 @@ If your code changes anything in models.py, you might need to make changes in da
 ### Running tests
 [^top](#table-of-contents)
 
-When running tests, Django creates a test replica of the database in order for the tests not to change the data on the real database. Because of that, you need to alter the Postgres user that you created and add to it the `CREATEDB` privilege:
+When running tests, Django creates a test replica of the database in order for the tests not to change the data on the real database. Because of that, you need to alter the Postgres user that you created and add to it the `CREATEDB` privilege :
 
 ```
 ALTER USER rescueuser CREATEDB;
